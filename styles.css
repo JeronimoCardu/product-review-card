@@ -59,10 +59,14 @@ article main {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.8rem;
+    gap: .2rem;
+    padding: 1rem;
     border: none;
     outline: none;
     border-radius: 0.5rem;
+    img {
+        width: 1.2rem;
+    }
   }
   button:hover {
     background-color: #1a4032;
