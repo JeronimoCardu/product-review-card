@@ -95,7 +95,17 @@ article main {
   text-decoration: line-through;
 }
 
+.imgMobile{
+  display: none;
+}
+
 @media (max-width: 600px) {
+  .imgDesktop{
+    display: none;
+  }
+  .imgMobile{
+    display: block;
+  }
   article {
     grid-template-columns: auto;
     grid-template-rows: 40% 1fr;
